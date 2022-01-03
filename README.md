@@ -1,1 +1,3 @@
 # sbp
+
+This project was created to analyze how busy the the three different sbp bouldering gyms were at different days and times during the summer of 2021. The sbpscraper.py script scrapes the time, capacity, and current count at each of the three gyms. I used cron jobs to run the script every 15minutes for 2 weeks. The collected data is in sbpdata.csv. The sbpanalysis.py script created some graphs to visualize the collected data, which are stored in the graphs folder. 
